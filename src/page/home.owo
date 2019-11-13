@@ -1,0 +1,16 @@
+<template lang="less">
+.home
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+
+</style>
