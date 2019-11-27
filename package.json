@@ -3,7 +3,7 @@
     "less": "^3.9.0",
     "pug": "^2.0.3"
   },
-  "name": "ozzx-example",
+  "name": "pc-template",
   "version": "1.0.0",
   "main": "ozzx.js",
   "devDependencies": {},
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozzx/example.git"
+    "url": "git+https://github.com/owo-ink/pc-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ozzx/example/issues"
+    "url": "https://github.com/owo-ink/pc-template/issues"
   },
-  "homepage": "https://github.com/ozzx/example#readme",
+  "homepage": "https://github.com/owo-ink/pc-template#readme",
   "description": ""
 }
