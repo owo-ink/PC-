@@ -1,4 +1,4 @@
-<template lang="less">
+<template lang="pug">
 .home
 </template>
 
