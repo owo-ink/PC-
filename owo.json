@@ -119,7 +119,7 @@
 			"serverPort": 8000,
 			"server": true,
 			"autoReload": true,
-			"remoteDebug": false,
+			"remoteDebug": true,
 			"title": "预览页面"
 		},
 		"build": {
@@ -133,7 +133,8 @@
 			"embedSize": 0,
 			"merge": false,
 			"allAnimate": false,
-			"title": "{TAG_14226_TAG}"
+			"title": "{TAG_14226_TAG}",
+			"handleLink": true
 		}
 	}
 }
