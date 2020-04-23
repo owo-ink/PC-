@@ -90,7 +90,8 @@
 	"styleList": [
 		{
 			"name": "main",
-			"src": "./src/main.css"
+			"src": "./src/main.css",
+			"resource": true
 		},
 		{
 			"name": "swiper.2.0",
@@ -119,7 +120,7 @@
 			"serverPort": 8000,
 			"server": true,
 			"autoReload": true,
-			"remoteDebug": true,
+			"remoteDebug": false,
 			"title": "预览页面"
 		},
 		"build": {
