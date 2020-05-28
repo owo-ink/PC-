@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "viewport",
-			"content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+			"content": "width=1200, user-scalable=yes"
 		},
 		{
 			"name": "format-detection",
@@ -46,30 +46,6 @@
 		{
 			"name": "pagetype",
 			"content": "2"
-		},
-		{
-			"name": "screen-orientation",
-			"content": "landscape"
-		},
-		{
-			"name": "x5-orientation",
-			"content": "landscape"
-		},
-		{
-			"name": "full-screen",
-			"content": "yes"
-		},
-		{
-			"name": "x5-fullscreen",
-			"content": "true"
-		},
-		{
-			"name": "browsermode",
-			"content": "application"
-		},
-		{
-			"name": "x5-page-mode",
-			"content": "app"
 		}
 	],
 	"scriptList": [
