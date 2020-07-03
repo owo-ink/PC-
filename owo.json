@@ -51,11 +51,11 @@
 	"scriptList": [
 		{
 			"name": "jquery1.11.0",
-			"src": "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
+			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
 		},
 		{
 			"name": "swiper.min.2.0",
-			"src": "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
+			"src": "https://cunchu.site/owo/script/idangerous.swiper.min.js"
 		},
 		{
 			"name": "main",
@@ -71,7 +71,7 @@
 		},
 		{
 			"name": "swiper.2.0",
-			"src": "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css"
+			"src": "https://cunchu.site/owo/style/idangerous.swiper.css"
 		}
 	],
 	"pageList": [
@@ -97,7 +97,7 @@
 			"server": true,
 			"autoReload": true,
 			"remoteDebug": false,
-			"title": "预览页面"
+			"title": "测试预览页面"
 		},
 		"build": {
 			"debug": false,
