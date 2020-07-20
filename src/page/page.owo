@@ -1,16 +1,611 @@
 <template lang="pug">
 .home
+  .roll-box
+    .conn
+      .so-0.box
+        p “加大宏观政策实施力度，着力稳企业保就业”，“保障就业和民生，必须稳住上亿市场主体”……<br>今年全国“两会”的政府工作报告多次强调稳就业、保民生的重要性。特许加盟行业以低风险门槛的轻模式特征，<br>打开创业者的机会窗口，提供了大量就业岗位，激活了经济的毛细血管，成为经济创新及多元化发展的驱动力和有力保障。<br>为贯彻国家六保六稳号召，拉动更多创业与就业机会，人民网研究院、腾讯广告、中国连锁经营协会联合发起<br>“微创业扶植计划”公益项目，联合多方能量，为行业提供多元化创业解决方案与扶植政策，<br>支持特许连锁及各中小微企业健康发展，共拓未来。
+      .so-1.box
+        .video
+          <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAyMC83LzE3LzllY2MzNWM5LWRmM2YtNDc1ZS04MzM5LWEzMTBjM2VhMjJiMy54bWw=/playerByOsmf.swf" quality="high" width="940" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+      //- 左中右新闻列表
+      .so-2.box
+        .left
+          .image-show
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0720/MAIN202007201713043589358494651.jpg")
+              span 底部文字信息
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+          .image-show
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0720/MAIN202007201713043589358494651.jpg")
+              span 底部文字信息
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+        .center
+          .image-show
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0720/MAIN202007201713043589358494651.jpg")
+              span 底部文字信息
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+          .image-show
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0720/MAIN202007201713043589358494651.jpg")
+              span 底部文字信息
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+        .right
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+          h2 标题
+          //- 新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+          h2 标题
+          ul
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+            li
+              a(href="#" target="_blank") 新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表新闻列表
+      //- 轮播图卡片
+      .so-3.box
+        .swiper-box
+          .swiper-container
+            .swiper-wrapper
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+              .swiper-slide
+                .float-image
+                  img(src="@|tengxun.png|")
+                .text
+                  h1 名称名称
+                  h2 名称名称
+                  p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
+            .swiper-pagination
+      .so-4.box
+        input.so.so-5
+        .so.so-6
+        textarea.so.so-7
+        .so.so-8
+        .so.so-9
+        .so.so-10
+      .so-11.box
+        .so.so-12
+        .so.so-13
+        .so.so-14
 </template>
 
 <script>
   module.exports = {
     created: function () {
-
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 2,
+        slidesPerColumn: 4,
+        slidesPerGroup : 2,
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
     }
   }
 </script>
 
 
 <style lang="less">
-
+.roll-box {
+  background-image: url('@|bg.jpg|');
+  height: 4500px;
+}
+.conn {
+  position: absolute;
+  width: 1000px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 660px;
+}
+.so {
+  position: absolute;
+}
+.box {
+  margin-bottom: 40px;
+}
+.so-0 {
+  position: relative;
+  width: 1000px;
+  height: 384px;
+  z-index: 5;
+  background-image: url('@|677.png|');
+  p {
+    position: absolute;
+    width: 98%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+  }
+}
+.so-1 {
+  position: relative;
+  width: 1000px;
+  height: 563px;
+  z-index: 4;
+  background-image: url('@|678.png|');;
+}
+.so-2 {
+  position: relative;
+  width: 1000px;
+  height: 885px;
+  z-index: 3;
+  background-image: url('@|679.png|');;
+}
+.so-3 {
+  position: relative;
+  width: 1000px;
+  height: 956px;
+  z-index: 2;
+  background-image: url('@|680.png|');;
+}
+.so-4 {
+  position: relative;
+  width: 1000px;
+  height: 445px;
+  z-index: 1;;
+}
+.so-5 {
+  left: 81px;
+  top: 354px;
+  width: 197px;
+  height: 39px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 16px;
+  padding: 0 10px;
+  background-image: url('@|586.png|');
+}
+.so-6 {
+  left: 313px;
+  top: 354px;
+  width: 139px;
+  height: 38px;
+  z-index: -1;
+  background-image: url('@|588.png|');;
+}
+.so-7 {
+  left: 30px;
+  top: 117px;
+  width: 403px;
+  height: 197px;
+  z-index: -3;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  background-image: url('@|584.png|');
+}
+.so-8 {
+  left: 31px;
+  top: 363px;
+  width: 37px;
+  height: 19px;
+  z-index: -3;
+  background-image: url('@|673.png|');;
+}
+.so-9 {
+  left: 30px;
+  top: 88px;
+  width: 79px;
+  height: 20px;
+  z-index: -4;
+  background-image: url('@|674.png|');;
+}
+.so-10 {
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 445px;
+  z-index: -5;
+  background-image: url('@|681.png|');;
+}
+.so-11 {
+  position: relative;
+  width: 910px;
+  height: 89px;
+  z-index: 6;;
+}
+.so-12 {
+  left: 569px;
+  top: 0px;
+  width: 150px;
+  height: 87px;
+  z-index: -7;
+  background-image: url('@|430.png|');;
+}
+.so-13 {
+  left: 0px;
+  top: 9px;
+  width: 910px;
+  height: 74px;
+  z-index: -8;
+  background-image: url('@|672.png|');;
+}
+.so-14 {
+  left: 0px;
+  top: 21px;
+  width: 910px;
+  height: 68px;
+  z-index: -9;
+  background-image: url('@|268.png|');;
+}
+.video {
+  position: absolute;
+  width: 940px;
+  height: 400px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 115px;
+}
+.image-show {
+  width: 270px;
+  height: 160px;
+  position: relative;
+  a, img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 28px;
+    color: white;
+    text-align: center;
+  }
+}
+.so-2 {
+  ul {
+    width: 270px;
+    margin: 10px 0;
+  }
+  li {
+    font-size: 18px;
+    line-height: 42px;
+    height: 42px;
+    overflow: hidden;
+  }
+  .left {
+    width: 270px;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    border-right: 1px solid #f6f6f6;
+    padding-right: 25px;
+  }
+  .center {
+    width: 270px;
+    position: absolute;
+    left: 339px;
+    top: 130px;
+    border-right: 1px solid #f6f6f6;
+    padding: 0 25px;
+    border-left: 1px solid #f6f6f6;
+  }
+  a {
+    color: #333;
+  }
+  .right {
+    width: 270px;
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    border-left: 1px solid #f6f6f6;
+    padding-left: 25px;
+    li {
+      line-height: 29px;
+      height: 29px;
+    }
+    h2 {
+      line-height: 23px;
+      height: 23px;
+    }
+  }
+}
+.so-3 {
+  .swiper-slide {
+    background-image: url('@|card-bg.png|');
+    width: 469px;
+    height: 175px;
+    background-repeat: no-repeat;
+    margin: 35px 0;
+    img {
+      position: absolute;
+      top: 18px;
+      left: 8px;
+    }
+    .text {
+      position: absolute;
+      width: 290px;
+      left: 165px;
+      top: 20px;
+      h1 {
+        color: #925715;
+      }
+      h2 {
+        color: #925715;
+        line-height: 36px;
+        font-weight: normal;
+      }
+      p {
+        color: #050505;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+  .swiper-box {
+    width: 950px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px;
+  }
+}
+.swiper-box .swiper-pagination-bullet {
+  width: 40px;
+  border-radius: 5px;
+  height: 5px;
+}
+.swiper-box .swiper-pagination-bullet-active {
+  background-color: #925715;
+}
 </style>

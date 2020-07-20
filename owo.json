@@ -54,13 +54,17 @@
 			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
 		},
 		{
-			"name": "swiper.min.2.0",
-			"src": "https://cunchu.site/owo/script/idangerous.swiper.min.js"
+			"name": "swiper.4.5.0.min",
+			"src": "./src/resource/swiper.4.5.0.min.js"
 		},
 		{
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "autoScale",
+			"src": "./owo_modules/autoScale.js"
 		}
 	],
 	"styleList": [
@@ -70,8 +74,8 @@
 			"resource": true
 		},
 		{
-			"name": "swiper.2.0",
-			"src": "https://cunchu.site/owo/style/idangerous.swiper.css"
+			"name": "swiper.4.5.0",
+			"src": "./src/resource/swiper.4.5.0.min.css"
 		}
 	],
 	"pageList": [
