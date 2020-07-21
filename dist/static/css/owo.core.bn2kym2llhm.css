@@ -74,6 +74,7 @@ li {
 .roll-box {
   background-image: url('../resource/bg.jpg');
   height: 4500px;
+  background-position: center;
 }
 
 .conn {

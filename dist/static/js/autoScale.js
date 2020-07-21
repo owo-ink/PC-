@@ -103,23 +103,7 @@ function getScale () {
       scaleBox.style.margin = "auto"
     }
   }
-  // 对专题适用的滚动页面
-  var rollList = document.getElementsByClassName('roll-box')
-  for (var index = 0; index < rollList.length; index++) {
-    var scaleBox = rollList[index];
-    var scale = window.innerWidth / autoScaleInfo.devisePCW
-    scaleBox.style.width = autoScaleInfo.devisePCW + 'px'
-    // scaleBox.style.height = autoScaleInfo.devisePCH + 'px'
-    autoScaleInfo.zoom = scale
-    // 判断使用zoom还是transform
-    if (navigator.userAgent.indexOf("Edge") > -1) {
-      scaleBox.style.transform = 'scale(' + autoScaleInfo.zoom + ', ' + autoScaleInfo.zoom + ') translate(0, 0)'
-    } else {
-      scaleBox.style.zoom = autoScaleInfo.zoom
-    }
-    scaleBox.style.transformOrigin = 'center'
-    scaleBox.style.margin = "0 auto"
-  }
+
   // 只对手机生效
   if ((autoScaleInfo.innerWidth / autoScaleInfo.innerHeight) < 1) {
     var rotateListPC = document.getElementsByClassName('rotate-box-pc')
@@ -129,6 +113,24 @@ function getScale () {
       rotateBox.style.height = autoScaleInfo.innerWidth + 'px'
       rotateBox.style.width = autoScaleInfo.innerHeight + 'px'
       rotateBox.style.transformOrigin = '0px 0px 0px'
+    }
+  } else {
+    // 对专题适用的滚动页面
+    var rollList = document.getElementsByClassName('roll-box')
+    for (var index = 0; index < rollList.length; index++) {
+      var scaleBox = rollList[index];
+      var scale = window.innerWidth / autoScaleInfo.devisePCW
+      scaleBox.style.width = autoScaleInfo.devisePCW + 'px'
+      // scaleBox.style.height = autoScaleInfo.devisePCH + 'px'
+      autoScaleInfo.zoom = scale
+      // 判断使用zoom还是transform
+      if (navigator.userAgent.indexOf("Edge") > -1) {
+        scaleBox.style.transform = 'scale(' + autoScaleInfo.zoom + ', ' + autoScaleInfo.zoom + ') translate(0, 0)'
+      } else {
+        scaleBox.style.zoom = autoScaleInfo.zoom
+      }
+      scaleBox.style.transformOrigin = 'center'
+      scaleBox.style.margin = "0 auto"
     }
   }
 }
