@@ -304,21 +304,75 @@
                   h2 名称名称
                   p 对于特许加盟企业来说，打造规范健康的行业生态，是可持续发展的。前提。”
             .swiper-pagination
-      .so-4.box
-        input.so.so-5
-        .so.so-6
-        textarea.so.so-7
+      form.so-4.box(action="http://node_comments.people.com.cn/board/index.php/Comment/inserflower" id="form" name="form" method="post" accept-charset="utf-8")
+        input.so.so-5(name="uid" id="uid")
+        .so.so-6(onclick="postMsg();return false;")
+        textarea.so.so-7(name="comment" id="comment")
         .so.so-8
         .so.so-9
         .so.so-10
+          ul.message-box
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
+            li
+              .title
+                span.name 网友名字
+                span - 2018-08-08 18:30:18
+              p 网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容网友留言内容
       .so-11.box
         .so.so-12
-        .so.so-13
+        .so.so-13(o-tap="changeNum")
+          .text
+            span 已有
+            plug.cent(_name="module123" _text="123456" _src="https://template.owo.ink/8823f9ed62bb78eb.owo")
+            span 次助力成长
         .so.so-14
 </template>
 
 <script>
   module.exports = {
+    data: {
+      num: 1211,
+      expNum: 140
+    },
     created: function () {
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 2,
@@ -328,6 +382,13 @@
           el: '.swiper-pagination',
         },
       });
+      owo.script.page.template.module123.changeText(this.data.num)
+    },
+    changeNum: function () {
+      owo.script.page.template.module123.changeText(++this.data.num)
+      if (this.data.expNum <= 180) {
+        this.query('.so-12').style.backgroundSize = `${++this.data.expNum}px auto`
+      }
     }
   }
 </script>
@@ -461,10 +522,13 @@
 }
 .so-12 {
   left: 569px;
-  top: 0px;
-  width: 150px;
-  height: 87px;
-  z-index: -7;
+  top: -9px;
+  width: 190px;
+  height: 103px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 140px auto;
+  user-select: none;
   background-image: url('@|430.png|');;
 }
 .so-13 {
@@ -474,6 +538,9 @@
   height: 74px;
   z-index: -8;
   background-image: url('@|672.png|');;
+}
+.so-13:active {
+  transform: translate(0, 3px);
 }
 .so-14 {
   left: 0px;
@@ -607,5 +674,44 @@
 }
 .swiper-box .swiper-pagination-bullet-active {
   background-color: #925715;
+}
+.so-13 .text {
+  color: #925715;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 74px;
+  padding-left: 140px;
+  user-select: none;
+  display: flex;
+  .cent {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin: 16px 0;
+  }
+}
+.message-box {
+  position: absolute;
+  width: 470px;
+  height: 252px;
+  left: 480px;
+  border: 1px solid #edd5b4;
+  top: 117px;
+  overflow: auto;
+  padding: 10px;
+  .title {
+    font-size: 20px;
+    line-height: 37px;
+    .name {
+      font-weight: bold;
+    }
+  }
+  li {
+    border-bottom: 1px dashed #e5d0b8;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
 }
 </style>
