@@ -4,7 +4,7 @@ var autoScaleInfo = {
   // 设计高度
   deviseH: 1508,
   // 设计宽度PC
-  devisePCW: 1920,
+  devisePCW: 1800,
   // 设计高度PC
   devisePCH: 1080,
   // 缩放中心 目前只支持 middle 和 top
