@@ -81,24 +81,3 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .pc .no-pc, .phone .no-phone {
   display: none;
 }
-
-.left-button {
-  position: absolute;
-  left: -130px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-  outline: none;
-}
-
-.right-button {
-  position: absolute;
-  right: -130px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  outline: none;
-  transform: rotate(180deg);
-  cursor: pointer;
-}

@@ -1,7 +1,6 @@
 {
 	"basePath": "./",
 	"root": "/src",
-	"title": "{TAG_14226_TAG}",
 	"scheme": [],
 	"outFolder": "./dist",
 	"container": "",
@@ -46,6 +45,18 @@
 		{
 			"name": "pagetype",
 			"content": "2"
+		},
+		{
+			"name": "description",
+			"content": "{TAG_59447_TAG}"
+		},
+		{
+			"name": "keywords",
+			"content": "{TAG_59446_TAG}"
+		},
+		{
+			"name": "catalogs",
+			"content": "{TAG_83943_TAG}"
 		}
 	],
 	"scriptList": [
@@ -54,17 +65,13 @@
 			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
 		},
 		{
-			"name": "swiper.4.5.0.min",
-			"src": "./src/resource/swiper.4.5.0.min.js"
+			"name": "idangerous.swiper2.7.6.min",
+			"src": "https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js"
 		},
 		{
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
-		},
-		{
-			"name": "autoScale",
-			"src": "./owo_modules/autoScale.js"
 		}
 	],
 	"styleList": [
@@ -74,8 +81,8 @@
 			"resource": true
 		},
 		{
-			"name": "swiper.4.5.0",
-			"src": "./src/resource/swiper.4.5.0.min.css"
+			"name": "idangerous.swiper2.7.6",
+			"src": "https://cunchu.site/owo/style/idangerous.swiper2.7.6.css"
 		}
 	],
 	"pageList": [
@@ -115,7 +122,13 @@
 			"merge": false,
 			"allAnimate": false,
 			"title": "{TAG_14226_TAG}",
-			"handleLink": true
+			"handleLink": true,
+			"scriptList": [
+				{
+					"name": "jquery1.11.0",
+					"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
+				}
+			]
 		}
 	}
 }
