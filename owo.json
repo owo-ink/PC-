@@ -61,10 +61,6 @@
 	],
 	"scriptList": [
 		{
-			"name": "jquery1.11.0",
-			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
-		},
-		{
 			"name": "idangerous.swiper2.7.6.min",
 			"src": "https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js"
 		},
