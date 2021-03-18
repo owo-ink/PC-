@@ -1,73 +1,71 @@
-/* 这个文件里写的是全局样式,在各个页面都生效 */
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  user-select: text;
-  min-width: 1200px;
-  font-size: 14px;
-  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
-}
 html {
-  background-color: white;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-body, html, .page {
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-h1, h2, h3, h4, h5, input {
-  margin: 0;
-  padding: 0;
-}
-ul, li {
-  list-style-type: none;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased
 }
 
-a {
-  cursor: pointer;
+body {
+  font: normal 12px/180% 'Microsoft YaHei', 'pingfang SC', 'helvetica neue';
+  color: #333;
+  text-align: center;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+a:link, a:visited {
+  color: #333;
   text-decoration: none;
 }
+
+a, img {
+  -webkit-touch-callout: none;
+}
+
 a:hover {
-  color: initial;
+  color: #c00;
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
-  margin:0;
-  padding:0;
+ol, ul, li {
+  list-style: none;
 }
 
-.clear:after {
-  content: "";
-  height: 0;
-  line-height: 0;
-  display: block;
-  visibility: hidden;
-  clear: both;
+em, i {
+  font-style: normal;
 }
 
-.w1000 {
-  width: 1000px;
-  margin: 0 auto;
+input, select, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 100%;
 }
 
-.w1200 {
-  width: 1200px;
-  margin: 0 auto;
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
 }
 
-.h20 {
-  height: 20px;
+button, input[type=button], input[type=reset], input[type=submit] {
+  cursor: pointer;
 }
 
-.h30 {
-  height: 30px;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .fl {
@@ -76,6 +74,107 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .fr {
   float: right;
+}
+
+/*clear*/
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.g-ellipsis-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.g-ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.g-ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.g-ellipsis-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+/*header*/
+
+.header {
+  height: 35px;
+  background: #fff;
+}
+
+.header span {
+  float: left;
+}
+
+.header span img {
+  margin-top: 2px;
+}
+
+.header em {
+  float: right;
+  line-height: 35px;
+  font-family: \5B8B\4F53;
+}
+
+.header em a {
+  margin: 0 6px;
+}
+
+.header em, .header em a:link, .header em a:visited, .header em a:hover {
+  color: #666;
+}
+
+
+
+#copyright {
+
+  margin: 0px auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 180%;
+  clear: both;
+}
+
+.w1000 {
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w1200 {
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pc .no-pc, .phone .no-phone {
