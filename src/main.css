@@ -153,16 +153,6 @@ table {
 
 
 
-#copyright {
-
-  margin: 0px auto;
-  font-size: 12px;
-  text-align: center;
-  padding: 20px 0;
-  line-height: 180%;
-  clear: both;
-}
-
 .w1000 {
   position: relative;
   width: 1000px;
@@ -172,7 +162,7 @@ table {
 
 .w1200 {
   position: relative;
-  width: 1000px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
