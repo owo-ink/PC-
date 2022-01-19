@@ -6,7 +6,6 @@ html {
 body {
   font: normal 12px/180% 'Microsoft YaHei', 'pingfang SC', 'helvetica neue';
   color: #333;
-  text-align: center;
 }
 
 *, *::after, *::before {
