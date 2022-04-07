@@ -61,8 +61,8 @@
 	],
 	"scriptList": [
 		{
-			"name": "idangerous.swiper2.7.6.min",
-			"src": "https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js"
+			"name": "idangerous.swiper2.7.0.min",
+			"src": "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
 		},
 		{
 			"name": "main",
@@ -77,8 +77,8 @@
 			"resource": true
 		},
 		{
-			"name": "idangerous.swiper2.7.6",
-			"src": "https://cunchu.site/owo/style/idangerous.swiper2.7.6.css"
+			"name": "idangerous.swiper2.7.0",
+			"src": "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css"
 		}
 	],
 	"pageList": [
