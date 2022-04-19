@@ -22,6 +22,7 @@ body {
 }
 
 a:link, a:visited {
+  color: unset;
   text-decoration: none;
 }
 
